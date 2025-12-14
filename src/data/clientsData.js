@@ -3,11 +3,11 @@ import cj1 from "../assets/cj2.jpg";
 import roc1 from "../assets/roc1.jpg";
 import roc2 from "../assets/roc2.jpg";
 import val from "../assets/val.jpg";
-import val1 from "../assets/val1.jpg";
+import val1 from "../assets/val3.jpg";
 
 const clientsData = [
   {
-    name: "cj M.",
+    name: "Cj M.",
     before: cj,
     after: cj1,
     testimonial:
@@ -21,7 +21,7 @@ const clientsData = [
       "Thanks to the personalized online plan, I finally hit my fitness goals. Highly recommended!"
   },
   {
-    name: "Val K.",
+    name: "Val G.",
     before: val,
     after: val1,
     testimonial:
