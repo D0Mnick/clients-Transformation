@@ -44,9 +44,11 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       {isOpen && (
-        <ul className="flex flex-col gap-4 mt-4 md:hidden">
+       <ul className="flex flex-col items-center gap-4 mt-4 md:hidden">
+
           <li><Link to="/" className="hover:text-blue-400 transition" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li><Link to="/about" className="hover:text-blue-400 transition" onClick={() => setIsOpen(false)}>About</Link></li>
+           <li><Link to="/about" className="hover:text-blue-400 transition" onClick={() => setIsOpen(false)}>Clients</Link></li>
           <li><Link to="/services" className="hover:text-blue-400 transition" onClick={() => setIsOpen(false)}>Services</Link></li>
           <li><Link to="/contact" className="hover:text-blue-400 transition" onClick={() => setIsOpen(false)}>Contact</Link></li>
         </ul>

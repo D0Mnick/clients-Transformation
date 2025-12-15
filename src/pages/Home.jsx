@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div className="p-6 text-center">
         <p className="text-gray-700 italic mb-2">"I achieved my fitness goals thanks to the coaching!"</p>
-        <p className="font-semibold">– Mike C.</p>
+        <p className="font-semibold">– Cj M.</p>
       </div>
     </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
       </div>
       <div className="p-6 text-center">
         <p className="text-gray-700 italic mb-2">"I achieved my fitness goals thanks to the coaching!"</p>
-        <p className="font-semibold">– Sarah M.</p>
+        <p className="font-semibold">– Rochele L.</p>
       </div>
     </div>
 
