@@ -110,6 +110,15 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
+          <li>
+            <Link
+              to="/arcgis"
+              className="hover:text-blue-400 transition"
+              onClick={() => setIsOpen(false)}
+            >
+              ArcGis
+            </Link>
+          </li>
         </ul>
       )}
     </nav>
