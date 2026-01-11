@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Suspense, lazy } from "react";
+import ArcGis from "./pages/ArcGis";
 
 // Lazy-loaded pages
 const Home = lazy(() => import("./pages/Home"));
@@ -21,6 +22,7 @@ function App() {
           <Route path="/client" element={<Clients />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/arcgis" element={<ArcGis />} />
         </Routes>
       </Suspense>
     </>
